@@ -8,7 +8,7 @@ jobs:
          run: echo "Hellow World"
 
   second_job:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
       - name: Bye world
         run: echo "Bye Bye"
