@@ -7,7 +7,7 @@ jobs:
       -  name: print hello-world
          run: |
            echo "Hellow World"
-           echo "sleep 20"
+           sleep 20
 
   second_job:
     runs-on: ubuntu-latest
