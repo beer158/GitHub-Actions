@@ -6,6 +6,8 @@ jobs:
     steps:
       -  name: git checkout
          uses: actions/checkout@v4
+      - name: list of files
+        run: ls -lrth
 
   second_job:
     runs-on: ubuntu-latest
